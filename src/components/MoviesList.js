@@ -8,8 +8,9 @@ const MoviesList = (props) => {
     // Return an unordered list
     // Inside the unordered list, embed a javascript expression (curly brackets).
     <ul>
-      {props.movies.map((movie, i) => <li key={i}> {movie} </li>)}
-      <h1>Check</h1>
+      {props.movies.map((movie, i) =>{
+        return <li key={i}>{movie}</li>;
+      })}
     </ul>
   );
 }

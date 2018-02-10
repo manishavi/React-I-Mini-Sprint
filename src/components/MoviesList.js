@@ -9,7 +9,7 @@ const MoviesList = (props) => {
     // Inside the unordered list, embed a javascript expression (curly brackets).
     <ul>
       {props.movies.map((movie, i) =>{
-        return <li key={i}>{movie}</li>;
+        return <li key={i}>{movie.title}</li>;
       })}
     </ul>
   );

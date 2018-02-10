@@ -13,20 +13,24 @@ class App extends Component {
     super();
       // Step 7: Inside the constructor function, create a state on this, and set it to an object.
       // Step 8: Inside the object, set a key to movies, and the value to an array of movies
-      this.state = { movies: [// {
-          //   id: 1,
-          //   title: 'Avengers',
-          // },
-          // {
-          //   id: 2,
-          //   title: 'Star Trek',
-          // },
-          // {
-          //   id: 3,
-          //   title: 'Gifted',
-          // }
-          "movie1", "movie2"] };
-  }
+      this.state = { 
+        movies: [
+          {
+            id: 1,
+            title: 'Avengers',
+          },
+          {
+            id: 2,
+            title: 'Star Trek',
+          },
+          {
+            id: 3,
+            title: 'Gifted',
+          },
+          // "movie1", "movie2"] };
+        ]
+      };
+    }
   // Step 9: Write a render function.
   render () {
   // Step 10: Inside the render function, write a return statement.
